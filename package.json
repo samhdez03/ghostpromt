@@ -1,0 +1,13 @@
+{
+  "name": "ghost-prompt",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:wasm": "wasm-pack build --target web --release --out-dir extension/pkg"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}

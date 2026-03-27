@@ -1,0 +1,1 @@
+C:\Users\Administrator\Desktop\ghost-prompt\target\wasm32-unknown-unknown\release\ghost_prompt.wasm: C:\Users\Administrator\Desktop\ghost-prompt\src\lib.rs C:\Users\Administrator\Desktop\ghost-prompt\src\patterns.rs

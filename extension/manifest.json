@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "GhostPrompt",
+  "version": "1.0.16",
+  "description": "GhostPrompt v10.16.1: CURP mixed-text hardening + phone normalization + token-safe detection + SSE fixes",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://*.chatgpt.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "GhostPrompt"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://*.chatgpt.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "css": [
+        "styles/ghost.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/*",
+        "injected-main.js"
+      ],
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://*.chatgpt.com/*"
+      ]
+    }
+  ]
+}

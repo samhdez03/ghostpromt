@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\ghost-prompt\target\wasm32-unknown-unknown\release\deps\getrandom-fc32d9f88de6be46.d: C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\lib.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\error.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\util.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\js.rs
+
+C:\Users\Administrator\Desktop\ghost-prompt\target\wasm32-unknown-unknown\release\deps\libgetrandom-fc32d9f88de6be46.rlib: C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\lib.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\error.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\util.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\js.rs
+
+C:\Users\Administrator\Desktop\ghost-prompt\target\wasm32-unknown-unknown\release\deps\libgetrandom-fc32d9f88de6be46.rmeta: C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\lib.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\error.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\util.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\js.rs
+
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\lib.rs:
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\error.rs:
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\util.rs:
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.17\src\js.rs:

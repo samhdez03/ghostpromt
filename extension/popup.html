@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GhostPrompt</title>
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <img id="logo" class="logo" src="assets/logo.png" alt="GhostPrompt">
+      <div class="brand-block">
+        <div class="brand-row">
+          <h1>GhostPrompt</h1>
+          <span id="status-dot" class="status-dot"></span>
+        </div>
+        <p id="status-text" class="status-text">Cargando...</p>
+      </div>
+    </header>
+
+    <section class="stats-row">
+      <article class="stat-card">
+        <div class="stat-label">Protegidos</div>
+        <div id="count-protected" class="stat-value">0</div>
+      </article>
+      <article class="stat-card">
+        <div class="stat-label">Sesión</div>
+        <div id="count-sessions" class="stat-value">1</div>
+      </article>
+    </section>
+
+    <section class="state-card">
+      <div class="state-title">Modo</div>
+      <div id="state-line" class="state-line">Stealth activo en esta página</div>
+      <div id="real-indicator" class="state-line" style="margin-top:6px;font-size:12px;font-weight:700;color:#7CFFB2;">PROTECCIÓN REAL ACTIVA</div>
+      <div id="mode-line" class="state-line" style="margin-top:6px;opacity:.9;font-size:12px;">Modo UI estable</div>
+      <div id="session-line" class="state-line" style="margin-top:6px;opacity:.75;font-size:11px;">Sesión aislada</div>
+    </section>
+
+    <section class="list-card">
+      <div class="list-head"><span>Últimos datos protegidos</span></div>
+      <ul id="pii-list" class="pii-list"></ul>
+      <div id="empty-section" class="empty-state">Todavía no hay datos protegidos en esta sesión.</div>
+    </section>
+
+    <section class="actions">
+      <button id="btn-toggle" class="btn btn-primary">Pausar</button>
+      <button id="btn-clear" class="btn btn-secondary">Borrar sesión</button>
+    </section>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

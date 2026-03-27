@@ -1,0 +1,27 @@
+# Normalizar todo a LF en el repo
+* text=auto eol=lf
+
+# Rust
+*.rs text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+
+# JavaScript / JSON
+*.js text eol=lf
+*.json text eol=lf
+*.ts text eol=lf
+
+# Web
+*.html text eol=lf
+*.css text eol=lf
+
+# Scripts — PowerShell necesita CRLF en Windows
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binarios (no tocar)
+*.wasm binary
+*.png binary
+*.jpg binary
+*.ico binary
